@@ -35,6 +35,11 @@ public class Evento implements Comparable<Evento> {
 	public int compareTo(Evento o) {
 		return this.t - o.t;
 	}
+
+	@Override
+	public String toString() {
+		return "Evento [t=" + t + ", country=" + country + ", n=" + n + "]";
+	}
 	
 	
 	
